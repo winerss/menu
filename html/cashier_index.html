@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>收银员中心</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/cashier_index.css"/>
+    <link rel="shortcut icon" href="../images/logo.ico" />
+    <style type="text/css">
+        th {
+            text-align: center;
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="nav">
+    <div class="brand col-md-10">
+        <h1>收银员管理</h1>
+    </div>
+    <!--<div class="login col-md-2">
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">员工专用</button>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="cooker_login.html">后厨</a></li>
+                <li><a href="cashier_login.html">收银</a></li>
+                <li><a href="admin_login.html">管理</a></li>
+            </ul>
+        </div>
+    </div>-->
+</div>
+<div id="container">
+       <!-- <div id="lside" class="col-md-3">
+            <div style="color:#5cb85c;text-align: center">
+                <div style="float: left;width: 50%">
+                    <h3>支付宝支付</h3>
+                    <img style="display: inline-block;width: 80%" class="img-responsive" src="../images/code.jpg" alt="">
+                </div>
+                <div style="float: right;width: 50%">
+                    <h3>微信支付</h3>
+                    <img style="display: inline-block;width: 80%" class="img-responsive" src="../images/we.jpg" alt="">
+                </div>
+
+            </div>
+        </div>-->
+        <div id="center" class="col-md-7">
+            <table class="col-md-12 table table-responsive table-hover" >
+                <tr class="trow1">
+                    <th>桌号1</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+                <tr class="trow2">
+                    <th>桌号2</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+                <tr class="trow3">
+                    <th>桌号3</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+                <tr class="trow4">
+                    <th>桌号4</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+                <tr class="trow5">
+                    <th>桌号5</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+                <tr class="trow6">
+                    <th>桌号6</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+                <tr class="trow7">
+                    <th>桌号7</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+                <tr class="trow8">
+                    <th>桌号8</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+                <tr class="trow9">
+                    <th>桌号9</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+                <tr class="trow10">
+                    <th>桌号10</th>
+                    <th>商品</th>
+                    <th>单价(元)</th>
+                    <th>数量(份)</th>
+                </tr>
+            </table>
+        </div>
+        <div id="rside" class="col-md-5">
+                <table class="col-md-12 table table-responsive" >
+                    <tr class="cash">
+                        <th>需付金额</th>
+                        <th>实收金额</th>
+                        <th>找零金额</th>
+                    </tr>
+                    <tr class="cash">
+                        <td class="money">0.00</td>
+                        <td><input class="money1" type="text"/></td>
+                        <td class="change">0.00</td>
+                    </tr>
+                    <tr class="cash">
+                       <!-- <td><button class="btn btn-info heji">合计</button></td>-->
+                        <td>
+                            <select class="num">
+                                <option value="1">餐桌1</option>
+                                <option value="2">餐桌2</option>
+                                <option value="3">餐桌3</option>
+                                <option value="4">餐桌4</option>
+                                <option value="5">餐桌5</option>
+                                <option value="6">餐桌6</option>
+                                <option value="7">餐桌7</option>
+                                <option value="8">餐桌8</option>
+                                <option value="9">餐桌9</option>
+                                <option value="10">餐桌10</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="sale">
+                                <option value="1">不打折</option>
+                                <option value="0.95">九五折</option>
+                                <option value="0.9">九折</option>
+                                <option value="0.85">八五折</option>
+                                <option value="0.8">八折</option>
+                                <option value="0.75">七五折</option>
+                                <option value="0.7">七折</option>
+                                <option value="0.65">六五折</option>
+                                <option value="0.6">六折</option>
+                                <option value="0.55">五五折</option>
+                                <option value="0.5">五折</option>
+                            </select>
+                        </td>
+                        <td><button class="btn btn-info jisuan">计算</button></td>
+                    </tr>
+                </table>
+            <button type="button" class="btn btn-info" style="float: right;margin-right:30px" data-toggle="modal" data-target="#myModal">
+                支付
+            </button>
+            <!-- 订单 -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">结账</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div style="color:#5cb85c;text-align: center">
+                                <div style="float: left;width: 50%">
+                                    <h3>支付宝支付</h3>
+                                    <img style="display: inline-block;width: 80%" class="img-responsive" src="../images/code.jpg" alt="">
+                                </div>
+                                <div style="float: right;width: 50%">
+                                    <h3>微信支付</h3>
+                                    <img style="display: inline-block;width: 80%" class="img-responsive" src="../images/we.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" style="margin: 10px 260px 0;" data-dismiss="modal">关闭</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../js/cashier_index.js" type="text/javascript"></script>
+</body>
+</html>

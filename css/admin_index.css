@@ -1,0 +1,137 @@
+#header {
+    height: 78px;
+    background-color: #1989c5;
+}
+#header h1 {
+    color: #f6f7f3;
+    margin-left: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h1,h5 {
+    margin: 0;
+    padding: 0;
+}
+#header h5 {
+    margin-left: 50px;
+    color: #f6f7f3;
+    font-size: 16px;
+}
+.list-group-item{
+    text-align: center;
+}
+.container {
+    margin: 50px auto;
+}
+ .trow1 th,.trow2 th,.trow3 th,.trow4 th,.trow5 th {
+    text-align: center;
+}
+ .info td {
+     text-align: center;
+ }
+.admin_user h2 {
+    color: #31b0d5;
+}
+.admin_user table tr th,td{
+    text-align: center;
+}
+.list3 {
+    position: relative;
+}
+.chart_h {
+    position: absolute;
+}
+.line_h {
+    width: 4px;
+    height: 400px;
+    background: #1989c5;
+    position: absolute;
+}
+.chart_row {
+    position: absolute;
+    top: 400px;
+}
+.amount {
+    list-style: none;
+}
+.amount li span {
+    color: #1989c5;
+    margin-left: -20px;
+}
+.date {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+.date li {
+    float: left;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.date li span {
+    color: #1989c5;
+}
+.line_r {
+    width: 580px;
+    height: 4px;
+    background: #1989c5;
+    position: absolute;
+    top: -1px;
+    border: none;
+}
+.arrow_r {
+    position: absolute;
+    right: 0px;
+    top: 13px;
+    font-size: 16px;
+    color: #1989c5;
+}
+.arrow_h {
+    position: absolute;
+    left: -7px;
+    font-size: 16px;
+    top:15px;
+    color: #1989c5;
+}
+.value {
+    position: relative;
+    height: 420px;
+}
+.value ul {
+    position: absolute;
+    list-style: none;
+    bottom: -10px;
+    width: 560px;
+}
+.value ul li {
+    width: 30px;
+    position: absolute;
+    background: #1989c5;
+    bottom: 0;
+    text-align: center;
+    color: #000;
+}
+.value ul li:nth-child(1) {
+    left: 50px;
+}
+.value ul li:nth-child(2) {
+    left: 140px;
+}
+.value ul li:nth-child(3) {
+    left: 235px;
+}
+.value ul li:nth-child(4) {
+    left: 330px;
+}
+.value ul li:nth-child(5) {
+    left: 425px;
+}
+.next {
+    color: red;
+}
+.table>tbody>tr>td {
+    vertical-align: inherit;
+}
+
+

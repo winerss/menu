@@ -1,0 +1,32 @@
+.nav {
+    height: 78px;
+    background-color: #1989c5;
+}
+#container {
+    margin: 50px auto;
+}
+.brand {
+    color: #999;
+    height: 78px;
+}
+.brand h1 {
+    color: #f6f7f3;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.login {
+    height: 70px;
+}
+.login .btn-group {
+    margin-top: 20px;
+}
+.trow th,.info td {
+    text-align: center;
+}
+.cash th,td{
+    text-align: center;
+}
+.cash .btn {
+    margin: 5px;
+}
+

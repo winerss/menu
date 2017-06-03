@@ -1,0 +1,35 @@
+.nav {
+    height: 78px;
+    background-color: #1989c5;
+}
+#container {
+    margin: 30px auto;
+}
+.table {
+    border: 1px solid #ebebeb;
+}
+.table>tbody>tr>td {
+    vertical-align: inherit;
+}
+.brand {
+    color: #999;
+    height: 78px;
+}
+.brand h1 {
+    color: #f6f7f3;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.login {
+    height: 70px;
+}
+.login .btn-group {
+    margin-top: 20px;
+}
+.trow th,.info td {
+    text-align: center;
+}
+#center {
+    height: 500px;
+    overflow: scroll;
+}
