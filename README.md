@@ -1,5 +1,5 @@
 # Web点餐系统
-用到HTML CSS jQuery Ajax PHP MySQL
+##用到HTML CSS jQuery Ajax PHP MySQL
 1、前台展示点餐界面,点餐后提交订单到数据库。<br/>
 2、厨师端查询当天对应桌号点餐订单，完成做菜，给该订单一个状态（已完成）。<br>
 3、收银员界面后加载出厨师完成的订单信息，进行结账<br>
